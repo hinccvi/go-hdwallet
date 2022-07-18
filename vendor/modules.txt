@@ -41,6 +41,18 @@ github.com/ethereum/go-ethereum/event
 github.com/ethereum/go-ethereum/params
 github.com/ethereum/go-ethereum/rlp
 github.com/ethereum/go-ethereum/rlp/internal/rlpstruct
+# github.com/fbsobreira/gotron-sdk v0.0.0-20211102183839-58a64f4da5f4
+## explicit; go 1.17
+github.com/fbsobreira/gotron-sdk/pkg/address
+github.com/fbsobreira/gotron-sdk/pkg/common
+github.com/fbsobreira/gotron-sdk/pkg/proto/core
+# github.com/golang/protobuf v1.4.3
+## explicit; go 1.9
+github.com/golang/protobuf/proto
+github.com/golang/protobuf/ptypes/any
+# github.com/shengdoushi/base58 v1.0.0
+## explicit
+github.com/shengdoushi/base58
 # github.com/tyler-smith/go-bip39 v1.1.0
 ## explicit; go 1.14
 github.com/tyler-smith/go-bip39
@@ -53,3 +65,32 @@ golang.org/x/crypto/sha3
 # golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
 ## explicit; go 1.17
 golang.org/x/sys/cpu
+# google.golang.org/protobuf v1.25.0
+## explicit; go 1.9
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/fieldsort
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/mapsort
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/known/anypb
